@@ -1,0 +1,314 @@
+
+/* Full site styles */
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Styles */
+.header-contender{
+    background-color: #E554731A;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px 0px;
+
+}
+
+.header-image{
+    width: 280px;
+    height: 350px;
+
+
+}
+.titel-text{
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 40px;
+
+}
+
+.header-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+
+}
+
+.btn-prymary{
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 14px;
+
+}
+
+/* Our Featured Flowers Styles */
+
+.Featured-titel{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.Featured-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.Featured-contenar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.Featured-img{
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+
+.Featured-img-1{
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+
+.Featured-img-2{
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+
+
+.flower-img{
+    width: 155px;
+    height: 215px;
+    margin: 110px 76px -5px 76px;
+}
+
+.Pink-Flower{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: underline;
+
+ 
+}
+
+/* support styles */
+.support-box-main{
+display: flex;
+align-items: center;
+justify-content: center
+
+
+}
+
+
+.Support-box{
+    display: flex;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px 180px;
+    align-items: center;
+    justify-content: space-around;
+    height: 180px;
+    width: 80%;
+
+}
+.support{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.support-img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.support-text{
+    font-size: 12px;
+}
+
+/* Hot Deal styles*/
+
+
+.Hot-contender{
+    background-color: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 240px ;
+
+}
+
+.Hot-image{
+    width: 280px;
+    height: 350px;
+
+
+
+}
+.Hot-titel{
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 20px;
+
+}
+
+.Hot-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px
+}
+
+.btn-prymary{
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 14px;
+
+}
+
+.off-color{
+   color: #E55473;
+}
+
+/* Instagram Styles */
+
+.instagram-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-contenar{
+    margin-top: 50px;
+    align-items: center;
+    
+
+
+}
+
+.instagram-img{
+    width: 270px;
+    height: 300px;
+    margin-left: 20px;
+}
+.instagram-titel{
+    text-align: center;
+    font-size: 30px;
+}
+
+.instagram-discirption{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 13px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.instagram-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+/* Email form */
+
+    
+
+.email-form{
+    background-image: url("./image/Rectangle\ 9.png") ;
+    background-repeat: no-repeat;
+    margin: 50px 180px;
+    text-align: center;
+    padding: 100px;
+    border-radius: 8px;
+    background-size: 100%;
+    background-position: center;
+
+
+}
+
+.form-titel{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.from-discirption{
+    text-align: center;
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+
+.btn-email{
+    padding: 10px 100px 10px 10px ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0;
+    margin-right: 10px;
+   
+}
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.flower-color{
+    color: #E55473;
+}
+
+.flower-titel{
+    font-size: 40px;
+}
+
+.footer-text{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h6{
+    color: #FFFFFF66;
+}
+
